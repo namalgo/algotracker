@@ -27,43 +27,45 @@ Help screen:
 
 AlgoTracker replayer is included at the end of the source, search for 'algotracker replayer'.
 
-  ------------------------------
-  -- algotracker replayer
-  -- ====================
-  -- 2021-11-08 08:01
-  -- by nameless algorithm
-  -- namelessalgorithm.com
-  --
-  -- how to use in your cart:
-  --
-  -- create song 'atrk-song.p8'
-  -- using algotracker
-  -- place next to your cart
-  -- along with
-  -- 'atrk-smpbank.p8'
-  --
-  -- copy all functions with the
-  -- mu_ prefix and call:
-  -- 
-  --  function _init()
-  --   mu_init()
-  --   mu_load("atrk-song.p8")
-  --   mu_play()
-  --  end
-  --  
-  --  function _update60()
-  --   mu_update();
-  --  end
-  --
-  -- relevant for animation:
-  --
-  -- mu.chx.vol <- channel power
-  -- if mu.chx.ins != -1:
-  --  mu.chx.fra <- note freq
-  --
-  ------------------------------
-  function mu_init()
-  ...
+```
+------------------------------
+-- algotracker replayer
+-- ====================
+-- 2021-11-08 08:01
+-- by nameless algorithm
+-- namelessalgorithm.com
+--
+-- how to use in your cart:
+--
+-- create song 'atrk-song.p8'
+-- using algotracker
+-- place next to your cart
+-- along with
+-- 'atrk-smpbank.p8'
+--
+-- copy all functions with the
+-- mu_ prefix and call:
+-- 
+--  function _init()
+--   mu_init()
+--   mu_load("atrk-song.p8")
+--   mu_play()
+--  end
+--  
+--  function _update60()
+--   mu_update();
+--  end
+--
+-- relevant for animation:
+--
+-- mu.chx.vol <- channel power
+-- if mu.chx.ins != -1:
+--  mu.chx.fra <- note freq
+--
+------------------------------
+function mu_init()
+...
+```
 
 ## Source
 
