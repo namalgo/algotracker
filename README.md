@@ -5,10 +5,6 @@ Screenshot:
 
   <img src="https://raw.githubusercontent.com/namalgo/algotracker/main/screenshots/algotracker.png" width="400px" >
 
-Help screen:
-
-  <img src="https://raw.githubusercontent.com/namalgo/algotracker/main/screenshots/algotracker-help.png" width="400px" >
-
 ## Usage
 Download all p8 files from src and put in the same directory, then load 'algotracker.p8' in Pico-8.
 
@@ -22,6 +18,11 @@ The right side shows a TRACK, which contains music data: pitch, instrument, volu
 - The two note parameters are entered as two digits 0-F. For the sample instrument type, the first digit indicates the sample index.
 
 Press '?' for help.
+
+Help screen:
+
+  <img src="https://raw.githubusercontent.com/namalgo/algotracker/main/screenshots/algotracker-help.png" width="400px" >
+
 
 ## Source
 
