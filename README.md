@@ -23,6 +23,9 @@ Help screen:
 
   <img src="https://raw.githubusercontent.com/namalgo/algotracker/main/screenshots/algotracker-help.png" width="400px" >
 
+## Replayer
+
+AlgoTracker replayer is included at the end of the source, search for 'algotracker replayer'.
 
 ## Source
 
